@@ -12,7 +12,7 @@ h2 {
 ul,
 ol,
 dl {
-  margin: 20px 0;
+  margin: 10px 0;
   padding-left: 20px;
 }
 a {
@@ -70,12 +70,12 @@ button {
 }
 @media screen and (min-width: 479px) {
   .archives {
-    margin: 0 20px 20px 0;
+    margin: 0 10px 10px 0;
   }
 }
 @media screen and (min-width: 700px) {
   .archives {
-    margin: 0 0 20px -20px;
+    margin: 0 0 10px -10px;
   }
 }
 .archive-article {
@@ -90,7 +90,7 @@ button {
 @media screen and (min-width: 479px) {
   .archive-article {
     float: left;
-    margin-top: 20px;
+    margin-top: 10px;
     width: 50%;
     border-top-width: 0;
   }
@@ -113,7 +113,7 @@ button {
 @media screen and (min-width: 479px) {
   .archive-article .archive-article-inner {
     position: relative;
-    margin-left: 20px;
+    margin-left: 10px;
     height: 150px;
   }
   .archive-article .archive-article-inner:before {
@@ -134,7 +134,7 @@ button {
   }
 }
 .archive-article .archive-article-inner .archive-article-header {
-  padding: 20px;
+  padding: 10px;
   height: 100%;
   background: rgba(255,255,255,0.8);
 }
@@ -152,11 +152,11 @@ button {
   overflow: hidden;
 }
 .article {
-  margin: 40px;
+  margin: 20px;
 }
 @media screen and (min-width: 700px) {
   .article {
-    margin: 40px 0;
+    margin: 20px 0;
   }
 }
 .article-header,
@@ -189,7 +189,7 @@ button {
 }
 @media screen and (min-width: 479px) {
   .article-header .article-meta .article-category {
-    margin-left: 10px;
+    margin-left: 5px;
   }
 }
 .article-header .article-meta .article-category .category-link {
@@ -211,7 +211,7 @@ button {
   .article-header .article-meta .article-tag-list {
     position: absolute;
     top: 0;
-    right: 40px;
+    right: 20px;
   }
 }
 @media screen and (min-width: 700px) {
@@ -236,12 +236,12 @@ button {
   color: #ff6347;
 }
 .article-header .article-title {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   font-size: 1.7em;
   font-weight: normal;
 }
 .article-body > * {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .article-body a {
   text-decoration: underline;
@@ -250,30 +250,30 @@ button {
 .article-body h2,
 .article-body h3,
 .article-body h4 {
-  margin: 30px 0;
+  margin: 15px 0;
 }
 .article-body hr {
   border-width: 1px 0 0 0;
   border-style: dashed;
   border-color: #e1e1e1;
-  margin: 30px 0;
+  margin: 15px 0;
 }
 .article-body blockquote {
   overflow: hidden;
-  margin: 20px 0;
-  padding: 0 20px;
+  margin: 10px 0;
+  padding: 0 10px;
   background: #fff8dd;
   color: rgba(0,0,0,0.5);
   font-style: italic;
 }
 .article-body blockquote footer {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .article-body blockquote footer strong {
   margin-right: 10px;
 }
 .article-body pre {
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .article-body .img-wrap {
   display: block;
@@ -285,7 +285,7 @@ button {
 }
 .article-body .caption {
   display: block;
-  margin: 10px 0 20px;
+  margin: 5px 0 10px;
   font-size: 16px;
   color: #777;
   text-align: center;
@@ -307,13 +307,13 @@ button {
   margin-top: 0;
 }
 .article-body ul li {
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
 }
 .article-body ul li ul {
-  margin: 10px 0;
+  margin: 5px 0;
 }
 .article-body > table {
-  margin: 20px auto;
+  margin: 10px auto;
   padding: 0;
   border-collapse: collapse;
   border-spacing: 0;
@@ -327,19 +327,19 @@ button {
 }
 .article-body > table th,
 .article-body > table td {
-  padding: 5px 10px;
+  padding: 2.5px 5px;
   text-align: left;
   border-left: 1px solid #e1e1e1;
   border-top: 1px solid #e1e1e1;
   font-size: 16px;
 }
 .article-nav {
-  margin: 80px 0 40px;
+  margin: 40px 0 20px;
 }
 @media screen and (min-width: 479px) {
   .article-nav {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media screen and (min-width: 700px) {
@@ -350,8 +350,8 @@ button {
 }
 .article-nav .article-nav-link-wrap {
   display: block;
-  margin: 20px 40px;
-  padding: 20px;
+  margin: 10px 20px;
+  padding: 10px;
   border: 1px solid #e1e1e1;
   text-align: center;
 }
@@ -389,15 +389,15 @@ button {
   }
 }
 .article-comments {
-  margin: 40px;
-  padding: 10px 20px;
+  margin: 20px;
+  padding: 5px 10px;
   border: 1px solid #e1e1e1;
   background: #f9f9f9;
 }
 @media screen and (min-width: 479px) {
   .article-comments {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
 }
 @media screen and (min-width: 700px) {
@@ -407,23 +407,23 @@ button {
   }
 }
 .article-gallery {
-  margin: -40px -40px 40px;
+  margin: -20px -20px 20px;
   height: 400px;
   overflow: hidden;
 }
 @media screen and (min-width: 479px) {
   .article-gallery {
-    margin: -60px -40px 40px;
+    margin: -30px -20px 20px;
   }
 }
 @media screen and (min-width: 700px) {
   .article-gallery {
-    margin: -60px 0 40px;
+    margin: -30px 0 20px;
   }
 }
 @media screen and (min-width: 1024px) {
   .article-gallery {
-    margin: -60px -100px 40px;
+    margin: -30px -50px 20px;
   }
 }
 .article-gallery .article-gallery-img {
@@ -456,7 +456,7 @@ button {
   overflow: hidden;
 }
 .site-info {
-  padding: 40px;
+  padding: 20px;
   background: #333;
   color: #999;
   font-size: 16px;
@@ -474,7 +474,7 @@ button {
 .site-header {
   position: relative;
   z-index: 1;
-  padding: 40px 0;
+  padding: 20px 0;
   background-color: #333;
 }
 .site-header a {
@@ -483,7 +483,7 @@ button {
 .site-header .site-title {
   position: relative;
   z-index: 100;
-  margin: 20px 0;
+  margin: 10px 0;
   font-size: 36px;
   line-height: 1;
   font-weight: lighter;
@@ -563,8 +563,8 @@ button {
 .article-content pre,
 .article-content .highlight {
   background: #f7f7f7;
-  margin: 20px 0;
-  padding: 20px 20px;
+  margin: 10px 0;
+  padding: 10px 10px;
   border-style: solid;
   border-color: #e1e1e1;
   border-width: 0;
@@ -635,7 +635,7 @@ button {
   border-color: #e1e1e1;
   border-width: 1px 0;
   background: #f7f7f7;
-  padding: 15px 20px 15px 0;
+  padding: 15px 10px 15px 0;
 }
 .article-content .gist .gist-file {
   border: none;
@@ -667,7 +667,7 @@ button {
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 .article-content .gist .gist-file .gist-meta a {
   color: color-link;
@@ -751,7 +751,7 @@ pre .javascript .function {
 }
 .alert {
   position: relative;
-  padding: 20px;
+  padding: 10px;
   background: #ff6347;
   color: #fff;
   text-align: center;
@@ -759,7 +759,7 @@ pre .javascript .function {
 .site-nav {
   position: relative;
   z-index: 100;
-  margin: 20px 0;
+  margin: 10px 0;
 }
 .site-nav ul {
   margin: 0;
@@ -781,7 +781,7 @@ pre .javascript .function {
 }
 .site-nav ul li a {
   display: block;
-  padding: 0 10px;
+  padding: 0 5px;
   font-size: 16px;
   text-transform: uppercase;
   color: #999;
@@ -791,13 +791,13 @@ pre .javascript .function {
 }
 .page-nav {
   position: relative;
-  padding: 0 10px;
+  padding: 0 5px;
   background: #333;
 }
 .page-nav .page-number,
 .page-nav .extend {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 10px 5px;
   color: #eee;
 }
 .page-nav .page-number.current,
@@ -806,25 +806,25 @@ pre .javascript .function {
 }
 @media screen and (min-width: 479px) {
   .page-nav {
-    margin: 20px 0;
+    margin: 10px 0;
     text-align: center;
     background: transparent;
   }
   .page-nav .page-number,
   .page-nav .extend {
-    padding: 10px;
+    padding: 5px;
     color: #999;
   }
 }
 .site-widget {
   margin: 0;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   list-style: none;
 }
 @media screen and (min-width: 700px) {
   .site-widget {
-    margin: 0 -20px;
+    margin: 0 -10px;
     padding-left: 0;
     padding-right: 0;
     zoom: 1;
@@ -839,8 +839,8 @@ pre .javascript .function {
   }
 }
 .site-widget .widget {
-  margin-top: 20px;
-  padding-top: 20px;
+  margin-top: 10px;
+  padding-top: 10px;
   border-top: 1px solid #e1e1e1;
   text-align: left;
   overflow: hidden;
@@ -855,7 +855,7 @@ pre .javascript .function {
     float: left;
     width: 33%;
     margin: 0;
-    padding: 0 20px 20px;
+    padding: 0 10px 10px;
     border-width: 0;
   }
 }
@@ -884,7 +884,7 @@ pre .javascript .function {
   margin-right: 5px;
 }
 .site-widget .widget-title {
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
   font-size: 16px;
   font-weight: normal;
   color: #999;
